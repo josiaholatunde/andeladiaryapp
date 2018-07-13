@@ -2,11 +2,12 @@ body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background: url("../img/img7.jpg") no-repeat 0 -50px;
+    background-size: cover;
     
 }
 .mainSection{
-    background: url("../img/img7.jpg") no-repeat 0 -50px;
-    background-size: cover;
+   
     margin-top: -15px;
 }
 
@@ -100,6 +101,7 @@ select{
     border:1px solid #BEBEBE;
     padding: 7px;
     margin:0px;
+    transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
@@ -190,14 +192,30 @@ footer a{
 
 
 /* Footer for the Login Form */
+.another{
+    margin-top: 40px;
+}
 #loginFormFooter{
-    margin-top: 195px;
+    margin-top: 175px;
 }
 #updateFormFooter{
     margin-top: 40px;
 }
 #addFormFooter{
     margin-top: 55px;
+}
+.regMsg{
+    margin-left: 10px;
+}
+.regMsg a{
+    text-decoration: none;
+    color: red;
+}
+.loginBtn{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
 }
 
 
@@ -209,7 +227,7 @@ footer a{
     max-width: 500px;
 }
 #viewFormFooter{
-    margin-top: 115px;
+    margin-top: 90px;
 }
 
 
@@ -219,7 +237,7 @@ footer a{
   .topnav li a.icon{
      position: absolute;
     right: 0;
-    top: 9px;  
+    top: 11px;  
     display: block;
      
   }
@@ -231,7 +249,7 @@ footer a{
   .topnav.responsive li a.icon {
     position: absolute;
     right: 0;
-    top: 7px;
+    top: 11px;
   }
   .topnav .navbar-right a{margin-right: 25px;}
   .topnav.responsive li a {

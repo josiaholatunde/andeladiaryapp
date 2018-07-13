@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="A diary app">
+    <meta name="author" content="My Diary">
+    <link rel="stylesheet" type="text/css" href="./css/navStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+        <header>
+                <nav id="myTopnav" class="topnav">
+                    <li class="highlight"> <a href="./index.html">MyDiaryApp</a></li>
+                    <li class="current"><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li class="navbar-right"><a class="active" href="loginform.html">Sign in</a></li>
+                    <li class="navbar-right"><a href="#about">Register</a></li>
+                    <li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </nav>
+        </header>
+    <section>
+    <div id="signupform">
+	    <form >
+            <ul class="form-style-1">
+                <h1>ADD NEW ENTRY</h1>
+                    <li>
+                        <label>Title:</label>
+                        <input type="text" name="title" class="field-long" />
+                    </li>
+
+                    <li>
+                        <label>Emotions</label>
+                        <select name="mood" class="field-long">
+                            <option value="">Select your emotions</option>
+                            <option value="sad">Sad</option>
+                            <option value="angry">Angry</option>
+                            <option value="ashamed">Ashamed</option>
+                            <option value="happy">Happy</option>
+                            <option value="excited">Excited</option>
+                        </select>
+                        
+                    </li>
+                
+                    <li>
+                        <label>Thoughts Description</label>
+                        <textarea name="description" id="description" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="ADD ENTRY" />
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <footer id="addFormFooter">
+        <h4>Contact us at <a href="https://github.com/josiaholatunde">https://github.com/josiaholatunde</a></h4>
+        <span>&copy; July 2018</span>
+    </footer>
+
+<script type="text/javascript" src="./js/script.js" ></script>
+</script>
+</body>
+</html>

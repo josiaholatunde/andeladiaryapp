@@ -1,8 +1,8 @@
-window.onload = function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+ function myFunction() {
+    const navContent = document.getElementById("myTopnav");
+    if (navContent.className === "topnav") {
+        navContent.className += " responsive";
     } else {
-        x.className = "topnav";
+        navContent.className = "topnav";
     }
 }
