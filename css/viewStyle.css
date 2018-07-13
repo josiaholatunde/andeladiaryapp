@@ -7,16 +7,23 @@
     .header{
         background-color: #4B99AD;
     }
+    .form-style-1 {
+    
+        max-width: 150%;
+        padding: 20px 12px 10px 20px;
+        font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+       
+    }
     .form-style-1 h1{
-    background:  #4B99AD;
-    padding: 20px 0;
-    font-size: 140%;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    margin: -20px -80px 16px -20px;
-    max-width: 500px;
-    box-sizing: border-box;
+        background:  #4B99AD; 
+        padding: 23px 0;
+        font-size: 140%;
+        font-weight: 300;
+        text-align: center;
+        color: #fff;
+ margin: -20px -12px 16px -20px; 
+        max-width: 150%;
+        box-sizing: border-box;
     }
 
     a.viewLink{
@@ -31,14 +38,14 @@
 
         
      button{
-            background-color: blue;
-            border: 3px solid blue;
+            background-color: #4B99AD;
+            border: 3px solid #4B99AD;
             height: 45px;  
             padding: 15px;
             margin-top: 6px;
     }
     .updateBtn {
-            background-color: rgb(64, 64, 241) !important;
+            background-color: #4B99AD !important;
             color: white !important;
     }
     .deleteBtn{
