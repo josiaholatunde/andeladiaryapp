@@ -28,5 +28,24 @@
     hr{
         border: 1px solid #4B99AD;
     }
+
+        
+     button{
+            background-color: blue;
+            border: 3px solid blue;
+            height: 45px;  
+            padding: 15px;
+            margin-top: 6px;
+    }
+    .updateBtn {
+            background-color: rgb(64, 64, 241) !important;
+            color: white !important;
+    }
+    .deleteBtn{
+            background-color: rgb(230, 42, 42) !important;
+            color: white !important;
+    }
+          
+            
       
      
