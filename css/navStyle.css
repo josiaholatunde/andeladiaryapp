@@ -201,6 +201,14 @@ footer a{
     margin-top: 55px;
 }
 
+a.register{
+    text-decoration: none;
+    color: black;
+    font: 15px/1.5;
+    color: red;
+
+    }
+
 
 /* View Section */
 
