@@ -1,0 +1,32 @@
+
+ .container {
+            width:80%;
+            margin: auto;
+            overflow: hidden;
+    }
+    .header{
+        background-color: #4B99AD;
+    }
+    .form-style-1 h1{
+    background:  #4B99AD;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -20px -80px 16px -20px;
+    max-width: 500px;
+    box-sizing: border-box;
+    }
+
+    a.viewLink{
+    text-decoration: none;
+    color: black;
+    font: 15px/1.5;
+    }
+
+    hr{
+        border: 1px solid #4B99AD;
+    }
+      
+     
